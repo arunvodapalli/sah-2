@@ -1,0 +1,14 @@
+<form [formGroup]="loginform">
+<div class="space space-component vtop hleft background-transparent">
+  <label for="uemail" class="text text-basic label">Email</label>
+  <input formControlName="uemail" id="uemail" nbInput class="input" placeholder="" fieldSize="medium" type="text" shape="rectangle" fullWidth>
+  <label for="upassword" class="text text-basic label">Password</label>
+  <input formControlName="upassword" id="upassword" nbInput class="input" placeholder="" fieldSize="medium" type="password" shape="rectangle" fullWidth>
+    <br> <br>
+  <button nbButton size="medium" appearance="filled" status="success" fullWidth (click)="login();">
+    Login
+  </button>
+  <br> <br> <br>
+  <a href="/Sign-in" align ="center" class="text-primary">Don't have an account? Sign up</a>
+</div>
+</form>

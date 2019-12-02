@@ -1,0 +1,26 @@
+[{
+    "feelings": "angry",
+    "values": 0
+  }, {
+  "feelings": "contempt",
+  "values": 0
+  }, {
+  "feelings": "disgust",
+  "values": 0
+  }, {
+  "feelings": "fear",
+  "values": 0.5
+  }, {
+  "feelings": "happiness",
+  "values": 1
+  }, {
+  "feelings": "neutral",
+  "values": 1
+  }, {
+  "feelings": "sadness",
+  "values": 0
+  }, {
+  "feelings": "surprise",
+  "values": 0
+  }]
+  

@@ -1,0 +1,16 @@
+<div class="space space-component vtop hleft background-transparent">
+  <label class="text text-basic label">User name</label>
+  <input required minlength="4" nbInput class="input" placeholder="User name" fieldSize="medium" type="text" shape="rectangle" #uname fullWidth>
+  <label  class="text text-basic label">Email</label>
+  <input  nbInput class="input" placeholder="Email" fieldSize="medium" type="email" shape="rectangle" #email fullWidth>
+  <label class="text text-basic label">Password</label>
+  <input nbInput class="input" placeholder="Password" fieldSize="medium" type="password" shape="rectangle" #password fullWidth>
+  <label class="text text-basic label">Confirm Password</label>
+  <input nbInput class="input" placeholder="ConfirmPassword" fieldSize="medium" type="password" shape="rectangle" #confirmpwd fullWidth>
+  <a href="/Login" class="text-primary">Already have an account? Sign in</a>
+  <br>
+  <br>
+</div>
+    <button nbButton size="medium" appearance="filled" status="success" (click)="signup();" fullWidth>
+      Sign Up
+    </button>

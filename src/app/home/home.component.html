@@ -1,0 +1,29 @@
+<div class="slot">
+  <div class="space space-component vtop hleft col-md-10 background-transparent">
+    <input nbInput class="input" placeholder="" fieldSize="medium" type="text" shape="round" fullWidth>
+  </div>
+  <div class="space space-component vtop hleft col-md-2 background-transparent">
+    <button nbButton class="button" size="medium" appearance="filled" status="success" fullWidth>
+        Search
+    </button>
+  </div>
+  <!-- <div class="row"> -->
+  <div class="col-md-3"></div>
+  <div class="space space-component vtop hleft col-md-6 background-transparent">
+      <!-- <div class="col-md-3"></div> -->
+      <iframe width="500" height="315"  src="https://www.youtube.com/embed/pGSzMfKBV9Q" frameborder="0" allowfullscreen></iframe>
+      
+  </div>
+  <div class="space space-component vtop hleft background-transparent">
+      <video #video id="video" width="500" height="315" style="display: none" autoplay></video>
+  </div>
+<!-- </div> -->
+  
+  <div class="space space-component vtop hcenter col-md-11 background-transparent">
+    <button nbButton class="button1" size="medium" appearance="filled" status="success" id="snap" (click)="capture()">
+        Snap photo
+    </button>
+  </div>
+  <!-- <canvas #canvas id="canvas" width="640" height="480"></canvas> -->
+  <div #barChart id="bar-chart"></div>
+</div>
